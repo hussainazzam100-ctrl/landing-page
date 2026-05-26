@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+header a {
+    color: #E5E7EB;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 100px;
+}
+
+#para h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#para p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#image-placeholder {
+    background-color: gray;
+    color: white;
+    border: none;
+    resize: none;
+    text-align: center;
+    padding-top: 60px;
+    width: 500px;
+    height: 220px;
+}
+
+#useless-info {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.uinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px;
+}
+
+.uinfo div {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+#subtext1,#subtext2,#subtext3,#subtext4,#subtext5{
+    width: 150px;
+    margin:auto;
+    text-align: center;
+    color: gray;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+
+.testimonial p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#Q {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: right;
+}
+
+
+footer {
+    background-color: #3882F6;
+    color: white;
+    margin: 80px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer button {
+    border: 2px solid white;
+}
